@@ -1,0 +1,6 @@
+*/
+!.gitignore
+!src/
+!src/**
+!readMe_src/
+!readMe_src/**
