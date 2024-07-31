@@ -15,8 +15,10 @@ jobs:
       - uses: actions/checkout@master
       - name: Archive Release
         run: zip gal_KR-commuter.zip *.pak
+        
       - name: Upload Release
         uses: ncipollo/release-action@v1
         with:
           artifacts: "gal_KR-commuter.zip"
+          bodyFile: "https://github.com/G-alumi/SimutransPak128Japan-v-KR-commuter/blob/main/ReadMe.Md"
           token: ${{ secrets.GITHUB_TOKEN }}
