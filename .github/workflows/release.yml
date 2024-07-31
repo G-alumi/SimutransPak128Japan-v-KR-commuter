@@ -18,7 +18,7 @@ jobs:
         with:
           type: "zip"
           filename: "gal_KR-commuter.zip"
-          exclusions: "*.git* src/** ReadMe.md readMe_src/**"
+          exclusions: "*.git* ./src/* ./ReadMe.md ./readMe_src/*"
       - name: Upload Release
         uses: ncipollo/release-action@v1
         with:
