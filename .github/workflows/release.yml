@@ -17,9 +17,8 @@ jobs:
         uses: thedoctor0/zip-release@main
         with:
           type: "zip"
-          path: "dist"
           filename: "gal_KR-commuter.zip"
-          exclusions: "*.pak"
+          exclusions: "*.git* src/* ReadMe.md readMe_src/*"
       - name: Upload Release
         uses: ncipollo/release-action@v1
         with:
