@@ -1,0 +1,24 @@
+name: release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Archive Release
+        uses: thedoctor0/zip-release@main
+        with:
+          type: "zip"
+          path: "dist"
+          filename: "gal_KR-commuter.zip"
+          exclusions: "*.pak"
+      - name: Upload Release
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: "gal_KR-commuter.zip"
+          token: ${{ secrets.GITHUB_TOKEN }}
