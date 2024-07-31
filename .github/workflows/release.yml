@@ -20,5 +20,5 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           artifacts: "gal_KR-commuter.zip"
-          bodyFile: "https://github.com/G-alumi/SimutransPak128Japan-v-KR-commuter/blob/main/ReadMe.Md"
+          bodyFile: "ReadMe.Md"
           token: ${{ secrets.GITHUB_TOKEN }}
