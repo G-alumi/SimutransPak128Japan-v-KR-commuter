@@ -19,7 +19,7 @@ jobs:
         run: zip gal_KR-commuter.zip *.pak
         
       - name: Edit ReleaseNote
-        run: sed -i '1iダウンロードはページ下部にあります' ReadMe.Md
+        run: sed -i '1i**ダウンロードはページ下部にあります**' ReadMe.Md
         
       - name: Upload Release
         uses: ncipollo/release-action@v1
