@@ -7,3 +7,5 @@
 !readMe_src/
 !readMe_src/**
 !*.pak
+!compat_archive/
+!compat_archive/**

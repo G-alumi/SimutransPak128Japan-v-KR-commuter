@@ -6,7 +6,7 @@ on:
       - 'v*'
 
 jobs:
-  build:
+  release:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@master
         
       - name: Archive Release
-        run: zip gal_KR-commuter.zip *.pak compat.tab
+        run: zip gal_KR-commuter.zip *.pak compat_archive\${{ github.ref_name }}\compat.tab
         
       - name: Edit ReleaseNote
         run: sed -i '1i**ダウンロードはページ下部にあります**\n' ReadMe.Md
