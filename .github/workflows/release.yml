@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@master
         
       - name: Archive Release
-        run: zip gal_KR-commuter.zip *.pak compat_archive\${{ github.ref_name }}\compat.tab
+        run: zip gal_KR-commuter.zip *.pak compat_archive/${{ github.ref_name }}/*
         
       - name: Edit ReleaseNote
         run: sed -i '1i**ダウンロードはページ下部にあります**\n' ReadMe.Md
