@@ -9,3 +9,5 @@
 !*.pak
 !compat_archive/
 !compat_archive/**
+!Release/
+!Release/**
