@@ -18,12 +18,12 @@ jobs:
       - name: Archive Release
         run: zip gal_KR-commuter.zip *.pak compat_archive/${{ github.ref_name }}/*
         
-      - name: Edit ReleaseNote
-        run: sed -i '1i**ダウンロードはページ下部にあります**\n' ReadMe.Md
+      # - name: Edit ReleaseNote
+      #   run: sed -i '1i**ダウンロードはページ下部にあります**\n' ReadMe.Md
         
       - name: Upload Release
         uses: ncipollo/release-action@v1
         with:
           artifacts: "gal_KR-commuter.zip"
-          bodyFile: "ReadMe.Md"
+          bodyFile: "release/${{ github.ref_name }}/release.Md"
           token: ${{ secrets.GITHUB_TOKEN }}
