@@ -25,5 +25,5 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           artifacts: "gal_KR-commuter.zip"
-          bodyFile: "release/release.Md"
+          bodyFile: "release/release.md"
           token: ${{ secrets.GITHUB_TOKEN }}
