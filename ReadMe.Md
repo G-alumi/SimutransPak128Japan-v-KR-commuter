@@ -352,8 +352,8 @@ v2.1.0で2次車を追加しました。
 #### KORAIL 381000系
 |||||
 |:-:|:-:|:-:|:--|
-|1次車<br>( Gal_korail_381x00_1st )|2006~|![](readMe_src/icon_korail_381000_1st.png)| トングリと呼ばれる顔の車両です。|
-|2次車<br>( Gal_korail_381x00_2nd )|2006~|![](readMe_src/icon_korail_381000_2nd.png)| チュドゥンイと呼ばれる顔の車両です。<br>ほかのチュドゥンイと細部の塗り分けが異なります。 |
+|1次車<br>( Gal_korail_381x00_1st )|2016~|![](readMe_src/icon_korail_381000_1st.png)| トングリと呼ばれる顔の車両です。|
+|2次車<br>( Gal_korail_381x00_2nd )|2018~|![](readMe_src/icon_korail_381000_2nd.png)| チュドゥンイと呼ばれる顔の車両です。<br>ほかのチュドゥンイと細部の塗り分けが異なります。 |
 
 | 1号車 | 2号車 | 3号車 | 4号車 ||
 |:-:|:-:|:-:|:-:|:--|
@@ -366,9 +366,9 @@ v2.1.0で2次車を追加しました。
 #### KORAIL 391000系
 |||||
 |:-:|:-:|:-:|:--|
-|1次車()<br>( Gal_korail_391x00_1st_pre )|2006~|![](readMe_src/icon_korail_391000_1st_pre.png)| 営業開始前の仕様です。すべて下の仕様になっています。 |
-|1次車<br>( Gal_korail_391x00_1st )|2006~|![](readMe_src/icon_korail_391000_1st.png)| トングリと呼ばれる顔の車両です。|
-|2次車<br>( Gal_korail_391x00_2nd )|2006~|![](readMe_src/icon_korail_391000_2nd.png)| アルミ塗装車体です。 |
+|1次車()<br>( Gal_korail_391x00_1st_pre )|2017~|![](readMe_src/icon_korail_391000_1st_pre.png)| 営業開始前の仕様です。すべて下の仕様になっています。 |
+|1次車<br>( Gal_korail_391x00_1st )|2017~|![](readMe_src/icon_korail_391000_1st.png)| トングリと呼ばれる顔の車両です。|
+|2次車<br>( Gal_korail_391x00_2nd )|2021~|![](readMe_src/icon_korail_391000_2nd.png)| アルミ塗装車体です。 |
 
 | 1号車 | 2号車 | 3号車 | 4号車 ||
 |:-:|:-:|:-:|:-:|:--|
@@ -376,16 +376,29 @@ v2.1.0で2次車を追加しました。
 
 ----
 ![](readMe_src/thumbs_Daegu.png)
-### 대경선《대구권광역철도》(大慶線《大邱圏広域電鉄》24年12月開業予定)
+### 대경선(大慶線)
 
 #### KORAIL 392000系
 |||||
 |:-:|:-:|:-:|:--|
-|1次車<br>( Gal_korail_392x00_2nd )|2006~|![](readMe_src/icon_korail_392000_1st.png)| チュドゥンイと呼ばれる顔の車両です。<br>2両編成です。 |
+|1次車<br>( Gal_korail_392x00_1st )|2024~|![](readMe_src/icon_korail_392000_1st.png)| チュドゥンイと呼ばれる顔の車両です。<br>2両編成です。 |
 
 | 1号車 | 2号車 ||
 |:-:|:-:|:--|
-|381000<br>(Mc1)|381900<br>(Mc2)| 基本編成 |
+|392000<br>(Mc1)|392900<br>(Mc2)| 基本編成 |
+
+----
+![](readMe_src/thumbs_Chungcheong.png)
+### 충청권 광역철도(忠清圏広域鉄道)
+
+#### KORAIL 393000系
+|||||
+|:-:|:-:|:-:|:--|
+|1次車<br>( Gal_korail_393x00_1st )|2024~|![](readMe_src/icon_korail_393000_1st.png)| チュドゥンイと呼ばれる顔の車両です。<br>2両編成です。 |
+
+| 1号車 | 2号車 ||
+|:-:|:-:|:--|
+|393000<br>(Mc1)|393900<br>(Mc2)| 基本編成 |
 
 ----
 ![](readMe_src/thumbs_Sinbundang.png)
